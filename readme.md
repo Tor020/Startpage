@@ -1,34 +1,43 @@
+# Features
 
-[Link to fleshed out Vue Repo](https://github.com/Tor020/Webpack3-Cli-Vue) 
+## 1st Page Main Section
 
-[Link to empty Vue Repo](https://github.com/Tor020/Empty-Vue)
+- Weather
 
-### Notes
+- Reddit Feed Links
 
-make a  
+- E-mail
 
-```Vue.config.js```
+## 2nd Page 
 
-for webpack options list [here](https://github.com/vuejs/vue-cli/tree/dev/docs/config)
-for webpack config example [here](https://github.com/vuejs/vue-cli/blob/dev/docs/guide/webpack.md#simple-configuration)
+- Frequent Links
 
-#### Sass
-- [Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
-- [Vue-Docs for Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
 
-#### Pug
-- [PrePros Boilerplate HTML](https://github.com/Tor020/preprosboilerplate/tree/master/Dev)
-- [Pug](https://gist.github.com/gearmobile/e1be3359a667eb1e555b2c461955e800)
-- [HTML to Pug](https://html-to-pug.com/)
-- [Pug to HTML](https://pughtml.com/)
+### Components Needed
 
-#### Vue-Cli
-- [Full Vue-cli Docs](https://github.com/vuejs/vue-cli/tree/dev/docs)
-- [Vue-cli commands](https://github.com/vuejs/vue-cli/blob/dev/docs/cli.md)
-- Seems to be some weird way of passing options to webpack with [vue-cli](https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md#inspecting-the-projects-webpack-config) 
-- [Actually fucking useful deep explaination into Vue CLI 3+](https://blog.logrocket.com/vue-cli-3-the-deep-dive-41dff070ac4a)
+- Dedicated Cards for Each Main Section Item
+- 
 
-#### Decent Vue Component example
 
- [tutorial page](https://frontstuff.io/build-your-first-vue-js-component)
- [code-example](https://codesandbox.io/s/38k1y8x375)
+- Navigation Central Panel
+  - https://codemyui.com/card-menu-animation/ Card menu animation that is full screen, Good concept
+
+# Extra Things
+
+- Weather SVG / CSS 
+<!-- 
+     https://codemyui.com/pure-css-animated-weather-icons/
+     https://codemyui.com/simple-weather-animation-svg/ 
+     https://codemyui.com/muted-color-weather-icon-animation-css/
+     https://codemyui.com/cartoony-weather-animation/
+     -->
+- Graphs -> Statistics based on usage / Based off of the get Requests from API responses (reddit)
+
+- Slow Cycling Reddit Links -> News Ticker style at bottom of page
+  - On clicking one link, go to a dedicated panel with more info on that link
+
+- Put Each Main section panel on a side of a cube with 3d transforms
+
+# Long-term
+
+- Basic Login - Firebase
